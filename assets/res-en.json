@@ -1,0 +1,64 @@
+[
+    [
+        {"id": "home", "text": "Home"},
+        {"id": "products", "text": "Apps"},
+        {"id": "about", "text": "About us"},
+        {"id": "contact", "text": "Contact"}
+    ],
+    [
+        
+        {"id": "title1", "text": "App Manager is available !"},
+        {"id": "info1", "text": "You can now download App Manager for Android 9 and above (API level 28). App Manager allows you to get information about all the apps on your device. You can get internet and storage usage data, used permissions, usage stats and much more about any app. You can also view any app's activities, features, providers, receivers and services."},
+	{"id": "title2", "text": "Iris Launcher is available !"},
+        {"id": "info2", "text": "You can now download Iris Launcher for Android 9 and above (API level 28). Iris Launcher's features include a blurry dock, menus and folders (features not available on Android), a search screen to look for any app, app shortcut or file on your device, new widgets specially made for the launcher, lots of animations and all the functionalities you would expect from a regular launcher."}
+    ],
+    [
+        {"id": "title", "text": "About us"},
+        {"id": "intro", "text": "Iris Applications is a Swiss software developer. The name 'Iris' comes from Greek mythology. More precisely, it comes from the Greek goddess Iris, messenger of the gods, principally Hera. But why choose the name of a messenger goddess? Simply because software acts as a messenger between humans and the thinking 'rock' we call a 'smartphone' or 'computer'. Of course, Iris is the messenger of the gods, and neither humans nor computers are gods. Nevertheless, the analogy still works."},
+        {"id": "passion", "text": "Just as with any other Swiss product, quality is the watchword. And the same applies to detail. It's the little details that add up, little by little, to make the difference between good software and excellent software. But that's not all. There are four imperative rules for the development of good applications. Quality, functionality, aesthetics and simplicity. These four principles are central to the development process of all our applications. Our applications are designed to be fast and reliable, useful and practical, beautiful and ergonomic, and simple and intuitive."}
+    ],
+    [
+        {"id": "title", "text": "Contact"},
+        {"id": "intro", "text": "Consumer satisfaction is essential to any developer. To achieve this, we need your feedback. You can contact us in a number of ways; by e-mail, or by leaving a review on one of our application pages."},
+        {"id": "email", "text": "If you have any questions or comments about Iris applications, or if you'd like to send us your recommendations, please send an e-mail to iris.applications.dev@gmail.com."},
+        {"id": "googlePlay", "text": "If you'd like to view or rate our apps, or if you'd like to download our apps, you can visit the Iris Google Play Store page."}
+    ],
+    [
+        {"id": "generalTitle", "text": "Privacy policy"},
+        {"id": "general", "text": "We do not collect any type of data about you. We do not believe in the commerce of personnal information. Incidentally, none of our apps are coded to be able to transmit user data to us."},
+        {"id": "launcherTitle", "text": "Iris Launcher"},
+        {"id": "launcher", "text": "Iris Launcher does not collect any type of data about you. Permission to access your photos is used to access your wallpaper so that it can be blurred. Permission to access your notifications is used to display icon badges with the number of notifications on the home screen. This data is never sent to any server or even stored on the device's disk."},
+	{"id": "appManagerTitle", "text": "App Manager"},
+	{"id": "appManager", "text": "App Manger does not collect any type of data about you. Permission to access usage data is used to display the amount of time you have spent on an app. This data is never sent to any server or even stored on the device's disk."}
+    ],
+    [
+        {"id": "p1", "text": "Iris Launcher"},
+        {"id": "p2", "text": "Launcher with a sleek design."},
+        {"id": "p3", "text": "Description"},
+        {"id": "p4", "text": "Create a functional and awesome home screen with Iris Launcher! <br><br> Detailed list of features : <br><br> Search screen (slide down to open) <br> - Search and open any file on your device <br> - Search for applications and their shortcuts <br><br> Blurred interface <br> - Blurred dock <br> - Blurred folders (opened and closed) <br> - Blurred context menus <br> - Compatible with all but the default wallpaper. <br><br> Application widget support <br> - Add widgets to your home screen <br> - Reconfigure them whenever you like <br> - Widgets cannot be resized <br><br> Custom widgets (long press on any empty area of the screen to open) <br> - Custom analog clock <br> - Custom battery status widget <br><br> Application folders <br> - Put applications in folders to organize your home screen <br><br> Screen manager (long press on page indicator to open) <br> - Reorganize, add and delete pages on your home screen <br><br> Notification badges <br> - Badges will appear on applications and folders when they receive a notification"},
+        {"id": "i1", "text": "/assets/launcher_512.png"},
+        {"id": "b1", "text": null},
+        {"id": "b2", "text": "https://play.google.com/store/apps/details?id=com.irisapplications.launcher"},
+	{"id": "b3", "text": null}
+    ],
+    [
+        {"id": "p1", "text": "App Manager"},
+        {"id": "p2", "text": "Functional and aesthetic application manager."},
+        {"id": "p3", "text": "Description"},
+        {"id": "p4", "text": "Manage any application on your phone with App Manager ! <br><br> Detailed list of features : <br><br> Internet and storage usage <br> - Discover the amount of storage (data, cache or total) used by each application <br> - Find out how much data (wi-fi or mobile) each application has consumed over the last 30 days <br><br> Permissions <br> - Check which authorizations each application uses <br> - Check which permissions have been granted to each application <br> - Shortcuts to manage the most useful permissions <br><br> Activities, providers, services, etc. <br> - Get information on each application's activities, features, providers, receivers and services <br> - Get information on time of installation, time of last update and application SDK versions"},
+        {"id": "i1", "text": "/assets/appManager_512.png"},
+        {"id": "b1", "text": null},
+        {"id": "b2", "text": "https://play.google.com/store/apps/details?id=com.irisapplications.appmanager"},
+	{"id": "b3", "text": null}
+    ],
+    [
+        {"id": "p1", "text": "Simple Web Games"},
+        {"id": "p2", "text": "Collection of free online games."},
+        {"id": "p3", "text": "Description"},
+        {"id": "p4", "text": "Play free, ad-free games ! <br><br> Single-player games include : <br><br> Duck <br> - Shoot the ducks by clicking on them. If you miss 10 ducks, you lose. <br><br> Memory <br> - Click on two identical cards to make them disappear. Be the fastest ! <br><br> Pepe Mining Simulator <br> - Mine pepe coins to buy items. <br><br> Snake <br> - Get as big as you can by eating apples. If you eat yourself or hit the wall, you lose. Use your keyboard arrows to change direction.  <br><br> Two player games include : <br><br> Cycles <br> - Two players play against each other. If you hit your trail, the other player's trail or the wall, you lose. Player 1 uses the arrow keys to change direction, while Player 2 uses the W, A, S and D keys. <br><br> Ping <br> - Score points by sending the ball past your opponent's paddle. Player 1 uses the W and S keys to move the paddle up or down, and Player 2 the UP and DOWN arrow keys."},
+        {"id": "i1", "text": "/assets/games_512.png"},
+        {"id": "b1", "text": null},
+        {"id": "b2", "text": null},
+	{"id": "b3", "text": "https://simplewebgames.github.io/games/"}
+    ]
+]

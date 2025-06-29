@@ -1,0 +1,193 @@
+/*General style*/
+@font-face {
+	font-family: Inter;
+	src: url(/assets/inter_default.ttf) format("truetype");
+}
+body {
+	margin: 0px;
+	margin-top: 80px;
+	padding-bottom: 40px;
+	background-color: #F5F5F7;
+	font-family: 'Inter';
+}
+.text {
+	text-align: justify;
+}
+.text.title {
+	display: flex;
+	font-size: 37px;
+	font-weight: 700;
+}
+.content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.contentCard {
+	width: 80%;
+	max-width: 900px;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 40px;
+	padding: 20px;
+	border-radius: 40px;
+	background-color: #FFFFFF;
+}
+/*Top navigation style*/
+.topNav {
+    position: fixed;
+    top: 0;
+	width: 100%;
+	height: 80px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.8);
+	overflow-y:auto;
+	z-index: 5;
+}
+.topNavElement {
+	height: 80px;
+	width: 210px;
+	margin-left: 10px;
+	margin-right: 10px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.topNavLink {
+	color: black;
+	font-size: 21px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+.topNavLogo {
+	width: 210px;
+	height: 40px;
+}
+/*Products page style*/
+.productContainer {
+	width: 95%;
+	max-width: 700px;
+	height: 180px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-top: 15px;
+	border: 1px solid #FFFFFF;
+	border-radius: 36px;
+	background-color: #FFFFFF;
+	font-family: 'Inter';
+	cursor: pointer;
+}
+.productContainer:hover {
+	border: 1px solid #FAFAFF;
+	background-color: #FAFAFF;
+}
+.productIcon {
+	width: 100px;
+	height: 100px;
+	border-radius: 20px;
+	margin-left: 15px;
+	margin-right: 15px;
+	box-shadow: 0px 3px 5px #F2F2F7;
+}
+.productDescription {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: center;
+}
+.productDescriptionName {
+	width: 70%;
+	font-weight: 700;
+	font-size: 21px;
+	text-align: left;
+	margin-bottom: 0px;
+}
+.productDescriptionParagraph {
+	max-height: 3.9em;
+  	line-height: 1.3em;
+	font-size: 16px;
+	text-align: left;
+  	text-overflow: ellipsis;
+  	overflow: hidden;
+}
+.productLinkMain {
+	position: relative;
+  	left:0;
+	top:0;
+}
+.googlePlayButton {
+	height: 40px;
+	width: 80%;
+	border-radius: 6px;
+	background-color: #1DB954;
+}
+.appStoreButton, .webLinkButton {
+	height: 40px;
+	width: 80%;
+	border-radius: 6px;
+	background-color: #0A84FF;
+}
+.linkButtonText {
+	height: 100%;
+	width: 100%;
+	display: block;
+	padding-left: 10px;
+	padding-right: 10px;
+	line-height: 40px;
+	text-align: center;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	z-index: 1;
+}
+/*Product page style*/
+.contentProduct {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 25px;
+}
+.infoContainer {
+	width: 100%;
+	min-height: 220px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.image {
+	min-width: 10px;
+	min-height: 10px;
+	max-height: 150px;
+	max-width: 150px;
+	margin-right: 22px;
+	border-radius: 20%;
+	box-shadow: 0px 3px 5px #F2F2F7;
+}
+.infoMetaContainer {
+	display: flex;
+	flex: 1;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.buttonContainer {
+	width: 30%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.moreInfo {
+	width: 90%;
+	height: 220px;
+	display: flex;
+	flex-direction: row;
+}

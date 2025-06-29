@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<title>Iris Application - App</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="/css/index.css">
+	<script>
+		var pageIndex=0,lang=["en","fr"],userLang=navigator.language.slice(0,2);lang.includes(userLang)||(userLang="en");const params=new URLSearchParams(document.location.search),product=params.get("p");
+		var linkData,textData,xhttp=new XMLHttpRequest;xhttp.onreadystatechange=function(){var t,e;4==this.readyState&&200==this.status&&(-1!=(e=(t=JSON.parse(xhttp.responseText)).findIndex(t=>t.productID==product))?pageIndex=t[e].productID:window.location.href="products")},xhttp.open("GET","/assets/db.json",!1),xhttp.send();
+		var xhttp2=new XMLHttpRequest;xhttp2.onreadystatechange=function(){var t;4==this.readyState&&200==this.status&&(t=JSON.parse(xhttp2.responseText),linkData=t[0],textData=t[pageIndex])},xhttp2.open("GET","/assets/res-"+userLang+".json",!1),xhttp2.send();
+	</script>
+	<body>
+		<div class="topNav">
+			<div class="topNavElement">
+				<a href="index">
+					<img src="/assets/iris_banner_small_thin2.png" class="topNavLogo"/>
+				</a>
+			</div>
+			<div class="topNavElement">
+				<a href="index" class="topNavLink" id="home"></a>
+			</div>
+			<div class="topNavElement">
+				<a href="products" class="topNavLink" id="products"></a>
+			</div>
+			<div class="topNavElement">
+				<a href="about" class="topNavLink" id="about"></a>
+			</div>
+			<div class="topNavElement">
+				<a href="contact" class="topNavLink" id="contact"></a>
+			</div>
+		</div>
+		<div class="content" id="content">
+			<div class="contentCard">
+				<div class="infoContainer">
+					<img class="image" id="i1"/>
+					<div class="infoMetaContainer">
+						<p class="text" id="p1" style="width: 100%; min-height: 50px; font-size: 37px; font-weight: 700; margin-bottom: 0px;"></p>
+						<p class="text" id="p2" style="width: 100%; min-height: 50px"></p>
+					</div>
+					<div class="buttonContainer">
+						<div class="appStoreButton" style="display: none;">
+							<a class="linkButtonText redirect" id="b1">Get it on the App Store</a>
+						</div>
+						<div class="googlePlayButton" style="display: none;">
+							<a class="linkButtonText redirect" id="b2">Get it on Google Play</a>
+						</div>
+						<div class="webLinkButton" style="display: none;">
+							<a class="linkButtonText redirect" id="b3">Open in browser</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="contentCard">
+				<p class="text title" id="p3" style="width: 90%; min-height: 50px; margin-bottom: 0px;"></p>
+				<p class="text" id="p4" style="width: 90%; min-height: 180px;"></p>
+			</div>
+		</div>
+	</body>
+	<script>
+		var linkElements=document.getElementsByClassName("topNavLink"),elements=[...document.getElementsByClassName("text"),...document.getElementsByClassName("image"),...document.getElementsByClassName("redirect")];
+		function loadText(){for(var e=0;e<linkElements.length;e++){var t=linkElements[e],a=t.id;t.innerHTML=findData(linkData,a)}for(var n=0;n<elements.length;n++){var l=elements[n],s=l.tagName,i=l.id,r=findData(textData,i);
+		switch(s){case"P":l.innerHTML=r;break;case"IMG":l.src=r;break;case"A":null!=r&&(l.parentNode.style.display="flex",l.href=r)}}}function findData(e,t){for(var a=0;a<e.length;a++){var n=e[a];if(t==n.id)return e.splice(a,1),n.text}}loadText();
+	</script>
+</html> 

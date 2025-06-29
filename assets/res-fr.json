@@ -1,0 +1,63 @@
+[
+    [
+        {"id": "home", "text": "Accueil"},
+        {"id": "products", "text": "Apps"},
+        {"id": "about", "text": "À propos"},
+        {"id": "contact", "text": "Contact"}
+    ],
+    [
+        {"id": "title1", "text": "App Manager est disponible !"},
+        {"id": "info1", "text": "Vous pouvez maintenant télécharger App Manager pour Android 9 et plus (API niveau 28). App Manager vous permet d'obtenir des informations sur toutes les applications présentes sur votre appareil. Vous pouvez accéder aux données sur l'utilisation d'internet et du stockage, les permissions utilisées, les statistiques d'utilisation et bien d'autres informations sur n'importe quelle application. Vous pouvez également voir les activités, les fonctionnalités, les fournisseurs, les récepteurs et les services de n'importe quelle application."},
+	{"id": "title2", "text": "Iris Launcher est disponible !"},
+        {"id": "info2", "text": "Vous pouvez maintenant télécharger Iris Launcher pour Android 9 et plus (API niveau 28). Les fonctionnalités d'Iris Launcher comprennent un dock, des menus et des dossiers floutés (fonctionnalités non disponibles sur Android), un écran de recherche pour rechercher n'importe quelle application, raccourci d'application ou fichier sur votre appareil, de nouveaux widgets spécialement conçus pour le lanceur, de nombreuses animations et toutes les fonctionnalités que vous attendez d'un lanceur classique."}
+    ],
+    [
+        {"id": "title", "text": "À propos"},
+        {"id": "intro", "text": "Iris Applications est un développeur suisse de logiciel. Le nom « Iris » provient de la mythologie grecque. Plus précisément, il provient de la déesse grecque Iris, messagère des dieux, principalement d'Héra. Mais pourquoi donc choisir le nom d'une déesse messagère ? Simplement parce que les logiciels font office de messagers entre l'humain et le « caillou » pensant que nous appelons « smartphone » ou « ordinateur ». Certes, Iris est la messagère des dieux et ni l'humain, ni les ordinateurs ne sont des dieux. Nonobstant, l'analogie fonctionne quand même."},
+        {"id": "passion", "text": "Tout comme dans n'importe quel autre produit suisse, la qualité est le maître-mot. Et il en va de même pour le détail. Ce sont les petits détails qui, s'additionnant petit à petit, font la différence entre un bon logiciel et un excellent logiciel. Mais ce n'est pas tout. Il existe quatre règles impératives pour le développement de bonnes applications. La règle de qualité, de fonctionnalité, d'esthétisme et de simplicité. Ces quatre principes sont au centre du processus de développement de toutes nos applications. Nos applications sont pensées pour être rapides et fiables, utiles et pratiques, belles et ergonomiques, et simples et intuitives."}
+    ],
+    [
+        {"id": "title", "text": "Contact"},
+        {"id": "intro", "text": "La satisfaction des consommateurs est essentielle à tout développeur. Pour ce faire, il est nécessaire que nous puissions avoir votre avis. Vous pouvez nous contacter de plusieurs manières ; par e-mail, ou en laissant une évaluation sur la page d'une de nos applications."},
+        {"id": "email", "text": "Si vous avez la moindre question ou le moindre commentaire concernant les applications d'Iris, ou si vous souhaitez nous faire parvenir des recommandations, vous pouvez envoyer un e-mail à l'adresse suivante : iris.applications.dev@gmail.com"},
+        {"id": "googlePlay", "text": "Si vous souhaitez consulter ou évaluer nos applications, ou si vous voulez télécharger nos applications, vous pouvez vous rendre sur la page Google Play Store d'Iris."}
+    ],
+    [
+        {"id": "generalTitle", "text": "Politique de confidentialité"},
+        {"id": "general", "text": "Nous ne collectons aucun type de données vous concernant. Nous ne croyons pas au commerce d'informations personnelles. D'ailleurs, aucune de nos applications n'est codée de manière à pouvoir nous transmettre des données sur les utilisateurs."},
+        {"id": "launcherTitle", "text": "Iris Launcher"},
+        {"id": "launcher", "text": "Iris Launcher ne collecte aucun type de données vous concernant. L'autorisation d'accéder à vos photos est utilisée pour accéder à votre fond d'écran afin de le flouter. L'autorisation d'accéder à vos notifications est utilisée pour afficher des badges avec le nombre de notifications sur l'écran d'accueil. Ces données ne sont jamais envoyées à un serveur ni même stockées sur le disque de l'appareil."},
+	{"id": "appManagerTitle", "text": "App Manager"},
+	{"id": "appManager", "text": "App Manger ne collecte aucun type de données vous concernant. L'autorisation d'accéder aux données d'utilisation est utilisée pour afficher le temps que vous avez passé sur une application. Ces données ne sont jamais envoyées à un serveur ni même stockées sur le disque de l'appareil."}
+    ],
+    [
+        {"id": "p1", "text": "Iris Launcher"},
+        {"id": "p2", "text": "Lanceur d'applications avec un design épuré."},
+        {"id": "p3", "text": "Description"},
+        {"id": "p4", "text": "Créez un écran d'accueil fonctionnel et esthétique avec Iris Launcher ! <br><br> Liste détaillée des fonctionnalités : <br><br> Écran de recherche (faites glisser vers le bas pour ouvrir) <br> - Recherchez et ouvrez n'importe quel fichier sur votre appareil <br> - Rechercher des applications et leurs raccourcis <br><br> Interface floutée <br> - Dock flouté <br> - Dossiers floutés (ouverts et fermés) <br> - Contexte et menus contextuels floutés <br> - Compatible avec n'importe quel fond d'écran sauf ceux par défaut. <br><br> Prise en charge des widgets d'application <br> - Ajoutez des widgets à votre écran d'accueil <br> - Reconfigurez-les quand vous le souhaitez <br> - Les widgets ne sont pas redimensionnables <br><br> Widgets personnalisés (appuyez longuement sur n'importe quelle zone vide de l'écran pour ouvrir) <br> - Horloge analogique personnalisée <br> - Widget d'état de la batterie personnalisé <br><br> Dossiers d'applications <br> - Mettez les applications dans des dossiers pour organiser votre écran d'accueil <br><br> Gestionnaire d'écran (appui long sur l'indicateur de page pour ouvrir) <br> - Réorganiser, ajouter et supprimer des pages sur votre écran d'accueil <br><br> Insignes de notification <br> - Les badges apparaîtront sur les applications et les dossiers lorsqu'ils recevront une notification"},
+        {"id": "i1", "text": "/assets/launcher_512.png"},
+        {"id": "b1", "text": null},
+        {"id": "b2", "text": "https://play.google.com/store/apps/details?id=com.irisapplications.launcher"},
+	{"id": "b3", "text": null}
+    ],
+    [
+        {"id": "p1", "text": "App Manager"},
+        {"id": "p2", "text": "Gestionnaire d'applications fonctionnel et esthétique."},
+        {"id": "p3", "text": "Description"},
+        {"id": "p4", "text": "Gérez n'importe quelle application sur votre téléphone avec App Manager ! <br><br> Liste détaillée des fonctionnalités : <br><br> Stockage et utilisation d'Internet <br> - Découvrez la quantité de stockage (données, cache ou total) utilisée par chaque application <br> - Découvrez la quantité de données (wi-fi ou mobile) que chaque application a consommée au cours des 30 derniers jours <br><br> Autorisations <br> - Vérifiez quelles autorisations chaque application utilise <br> - Vérifiez quelles autorisations ont été accordées à chaque application <br> - Raccourcis pour gérer les autorisations les plus utiles <br><br> Activités, prestataires, services, etc. <br> - Obtenez des informations sur les activités, fonctionnalités, fournisseurs, récepteurs et services de chaque application <br> - Obtenez des informations sur l'heure d'installation, l'heure de la dernière mise à jour et les versions du SDK de l'application"},
+        {"id": "i1", "text": "/assets/appManager_512.png"},
+        {"id": "b1", "text": null},
+        {"id": "b2", "text": "https://play.google.com/store/apps/details?id=com.irisapplications.appmanager"},
+	{"id": "b3", "text": null}
+    ],
+    [
+        {"id": "p1", "text": "Simple Web Games"},
+        {"id": "p2", "text": "Collection de jeux en ligne gratuits."},
+        {"id": "p3", "text": "Description"},
+        {"id": "p4", "text": "Jouez à des jeux gratuitement et sans publicité ! <br><br> Parmi les jeux à un seul joueur, il y a : <br><br> Duck <br> - Tirez sur les canards en leur cliquant dessus. Si 10 canards vous échappent, vous perdez. <br><br> Memory <br> - Cliquez sur deux cartes identiques pour les faire disparaître. Soyez le plus rapide ! <br><br> Pepe Mining Simulator <br> - Minez des pepe coins pour acheter des objets. <br><br> Snake <br> - Devenez aussi grand que possible en mangeant des pommes. Si vous vous mangez ou heurtez le mur, vous perdez. Utilisez les flèches de votre clavier pour changer de direction.  <br><br> Parmi les jeux à deux joueurs, il y a : <br><br> Cycles <br> - Deux joueurs s'affrontent. Si vous percutez votre traînée, la traînée du joueur adverse ou le mur, vous perdez. Le joueur 1 utilise les flèches pour changer de direction et le joueur 2 les touches W, A, S et D. <br><br> Ping <br> - Obtenez des points en envoyant la balle au-delà de la palette de votre adversaire. Le joueur 1 utilise les touches W et S pour déplacer la palette vers le haut ou vers le bas et le joueur 2 les flèches montante et descendante."},
+        {"id": "i1", "text": "/assets/games_512.png"},
+        {"id": "b1", "text": null},
+        {"id": "b2", "text": null},
+	{"id": "b3", "text": "https://simplewebgames.github.io/games/"}
+    ]
+]

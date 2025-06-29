@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<title>Iris Application - Apps</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="/css/index.css">
+	<script>
+		var productArray,pageIndex=4,lang=["en","fr"],userLang=navigator.language.slice(0,2);lang.includes(userLang)||(userLang="en");
+		var array,linkData,textData,xhttp=new XMLHttpRequest;xhttp.onreadystatechange=function(){4==this.readyState&&200==this.status&&(productArray=JSON.parse(xhttp.responseText))},xhttp.open("GET","/assets/db.json",!1),xhttp.send();
+		var xhttp2=new XMLHttpRequest;xhttp2.onreadystatechange=function(){4==this.readyState&&200==this.status&&(array=JSON.parse(xhttp2.responseText),linkData=array[0],textData=array[pageIndex])},xhttp2.open("GET","/assets/res-"+userLang+".json",!1),xhttp2.send();
+	</script>
+	<body>
+		<div class="topNav">
+			<div class="topNavElement">
+				<a href="index">
+					<img src="/assets/iris_banner_small_thin2.png" class="topNavLogo"/>
+				</a>
+			</div>
+			<div class="topNavElement">
+				<a href="index" class="topNavLink" id="home"></a>
+			</div>
+			<div class="topNavElement">
+				<a href="products" class="topNavLink" id="products"></a>
+			</div>
+			<div class="topNavElement">
+				<a href="about" class="topNavLink" id="about"></a>
+			</div>
+			<div class="topNavElement">
+				<a href="contact" class="topNavLink" id="contact"></a>
+			</div>
+		</div>
+		<div class="contentProduct" id="mainBody">
+		</div>
+		<template id="template">
+			<button class="productContainer">
+				<img class="productIcon"/>
+				<div class="productDescription">
+					<p class="productDescriptionName" id="p1">Name</p>
+					<p class="productDescriptionParagraph" id="p2">Description</p>
+				</div>
+				<div class="buttonContainer">
+					<div class="appStoreButton" id="b1">
+						<a class="linkButtonText" id="a1">Get it on the App Store</a>
+					</div>
+					<div class="googlePlayButton" id="b2">
+						<a class="linkButtonText" id="a2">Get it on Google Play</a>
+					</div>
+					<div class="webLinkButton" id="b3">
+						<a class="linkButtonText" id="a3">Open in browser</a>
+					</div>
+				</div>
+			</button>
+		</template>
+	</body>
+	<script>
+		function loadData(){for(var e=document.createDocumentFragment(),t=0;t<productArray.length;t++){const n=productArray[t].productID;var l=array[n],a=l[0].text,r=l[1].text,o=l[4].text,c=l[5].text,d=l[6].text,i=l[7].text,l=document.getElementById("template").content.cloneNode(!0);
+		l.querySelector("button").onclick=function(){window.location.href="product?p="+n},l.querySelector("img").src=o,l.querySelector("#p1").textContent=a,l.querySelector("#p2").textContent=r,l.querySelector("#b1").style=null==c?"display: none":"display: flex",l.querySelector("#b2").style=null==d?"display: none":"display: flex",l.querySelector("#b3").style=null==i?"display: none":"display: flex",l.querySelector("#a1").href=c,l.querySelector("#a2").href=d,l.querySelector("#a3").href=i,e.appendChild(l)}document.getElementById("mainBody").appendChild(e)}loadData();
+		var linkElements=document.getElementsByClassName("topNavLink"),elements=[...document.getElementsByClassName("text"),...document.getElementsByClassName("image"),...document.getElementsByClassName("redirect")];function loadText(){for(var e=0;e<linkElements.length;e++){var t=linkElements[e],n=t.id;t.innerHTML=findData(linkData,n)}for(var l=0;l<elements.length;l++){var a=elements[l],r=a.tagName,o=a.id,c=findData(textData,o);switch(r){case"P":a.innerHTML=c;break;case"IMG":a.src=c;break;case"A":null!=c&&(a.parentNode.style.display="flex",a.href=c)}}}function findData(e,t){for(var n=0;n<e.length;n++){var l=e[n];if(t==l.id)return e.splice(n,1),l.text}}loadText();
+	</script>
+</html>
