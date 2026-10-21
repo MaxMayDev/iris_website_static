@@ -14,13 +14,13 @@
     ],
     [
         {"id": "title", "text": "About us"},
-        {"id": "intro", "text": "Iris Applications is a Swiss software developer. The name 'Iris' comes from Greek mythology. More precisely, it comes from the Greek goddess Iris, messenger of the gods, principally Hera. But why choose the name of a messenger goddess? Simply because software acts as a messenger between humans and the thinking 'rock' we call a 'smartphone' or 'computer'. Of course, Iris is the messenger of the gods, and neither humans nor computers are gods. Nevertheless, the analogy still works."},
-        {"id": "passion", "text": "Just as with any other Swiss product, quality is the watchword. And the same applies to detail. It's the little details that add up, little by little, to make the difference between good software and excellent software. But that's not all. There are four imperative rules for the development of good applications. Quality, functionality, aesthetics and simplicity. These four principles are central to the development process of all our applications. Our applications are designed to be fast and reliable, useful and practical, beautiful and ergonomic, and simple and intuitive."}
+        {"id": "intro", "text": "Iris Applications is a Swiss software developer based in Geneva."},
+        {"id": "passion", "text": "Quality and detail are the watchwords. It's the little details that add up, little by little, to make the difference between good software and excellent software. But that's not all. Indeed, there are four imperative rules for the development of good applications. Quality, functionality, aesthetics and simplicity. These four principles are central to the development process of all our applications. Our applications are designed to be fast and reliable, useful and practical, beautiful and ergonomic, and simple and intuitive."}
     ],
     [
         {"id": "title", "text": "Contact"},
-        {"id": "intro", "text": "Consumer satisfaction is essential to any developer. To achieve this, we need your feedback. You can contact us in a number of ways; by e-mail, or by leaving a review on one of our application pages."},
-        {"id": "email", "text": "If you have any questions or comments about Iris applications, or if you'd like to send us your recommendations, please send an e-mail to iris.applications.dev@gmail.com."},
+        {"id": "intro", "text": "You can contact us in a number of ways; by e-mail, or by leaving a review on one of our application pages."},
+        {"id": "email", "text": "If you have questions or comments about Iris applications, or if you'd like to send us your recommendations, please send an e-mail to iris.applications.dev@gmail.com."},
         {"id": "googlePlay", "text": "If you'd like to view or rate our apps, or if you'd like to download our apps, you can visit the Iris Google Play Store page."}
     ],
     [
@@ -55,7 +55,7 @@
         {"id": "p1", "text": "Simple Web Games"},
         {"id": "p2", "text": "Collection of free online games."},
         {"id": "p3", "text": "Description"},
-        {"id": "p4", "text": "Play free, ad-free games ! <br><br> Single-player games include : <br><br> Duck <br> - Shoot the ducks by clicking on them. If you miss 10 ducks, you lose. <br><br> Memory <br> - Click on two identical cards to make them disappear. Be the fastest ! <br><br> Pepe Mining Simulator <br> - Mine pepe coins to buy items. <br><br> Snake <br> - Get as big as you can by eating apples. If you eat yourself or hit the wall, you lose. Use your keyboard arrows to change direction.  <br><br> Two player games include : <br><br> Cycles <br> - Two players play against each other. If you hit your trail, the other player's trail or the wall, you lose. Player 1 uses the arrow keys to change direction, while Player 2 uses the W, A, S and D keys. <br><br> Ping <br> - Score points by sending the ball past your opponent's paddle. Player 1 uses the W and S keys to move the paddle up or down, and Player 2 the UP and DOWN arrow keys."},
+        {"id": "p4", "text": "Play free, ad-free games ! <br><br> Single-player games include : <br><br> Memory <br> - Click on two identical cards to make them disappear. Be the fastest ! <br><br> Pepe Mining Simulator <br> - Mine pepe coins to buy items. <br><br> Snake <br> - Get as big as you can by eating apples. If you eat yourself or hit the wall, you lose. Use your keyboard arrows to change direction.  <br><br> Two player games include : <br><br> Cycles <br> - Two players play against each other. If you hit your trail, the other player's trail or the wall, you lose. Player 1 uses the arrow keys to change direction, while Player 2 uses the W, A, S and D keys. <br><br> Ping <br> - Score points by sending the ball past your opponent's paddle. Player 1 uses the W and S keys to move the paddle up or down, and Player 2 the UP and DOWN arrow keys."},
         {"id": "i1", "text": "/assets/games_512.png"},
         {"id": "b1", "text": null},
         {"id": "b2", "text": null},
