@@ -13,7 +13,7 @@
     ],
     [
         {"id": "title", "text": "À propos"},
-        {"id": "intro", "text": "Iris Applications est un développeur suisse de logiciel basé à Genève."},
+        {"id": "intro", "text": "Iris Applications est un développeur suisse de logiciels basé à Genève."},
         {"id": "passion", "text": "La qualité, tout comme le détail, sont les maîtres-mots. Ce sont les petits détails qui, s'additionnant petit à petit, font la différence entre un bon logiciel et un excellent logiciel. Mais ce n'est pas tout. En effet, il existe quatre règles impératives pour le développement de bonnes applications. La règle de qualité, de fonctionnalité, d'esthétisme et de simplicité. Ces quatre principes sont au centre du processus de développement de toutes nos applications. Nos applications sont pensées pour être rapides et fiables, utiles et pratiques, belles et ergonomiques, et simples et intuitives."}
     ],
     [
